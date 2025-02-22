@@ -1,0 +1,55 @@
+/* Navbar Grid Container */
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 8 columns */
+    grid-template-rows: repeat(4, auto); /* 4 rows */
+    gap: 15px; /* Gap between items */
+    padding: 20px;
+    background-color: #222;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Buttons */
+.navbar a {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid transparent;
+}
+
+/* Hover Effect */
+.navbar a:hover {
+    background: white;
+    color: #0056b3;
+    border: 2px solid #0056b3;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .navbar {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+    }
+}
+

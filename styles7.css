@@ -1,0 +1,98 @@
+/* Full Page Styling */
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.navigation a {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    background: #0056b3;
+}
+
+/* Quiz Container */
+.container {
+    background: pink;
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Header Styling */
+.header {
+    background: gray;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Question Styling */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+/* Label Styling */
+.option-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.option-container label {
+    width: 48%;
+    font-size: 16px;
+    color: black;
+}
+
+/* Buttons Container */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Button Styling */
+.submit, .reset {
+    background: lightgreen;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+.submit:hover, .reset:hover {
+    background: green;
+    color: white;
+}
+

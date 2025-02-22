@@ -1,0 +1,103 @@
+/* Background Gradient */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e045d3, #9ddd49, #5ffbf1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.navigation a {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    background: #0056b3;
+}
+
+/* Centered Box */
+.container {
+    background: linear-gradient(to bottom, #e045d3, #f070da, #badb58);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 50%;
+    min-width: 400px;
+}
+
+/* Header Styling */
+.header {
+    background: rgb(225, 235, 47);
+    color: rgb(23, 20, 50);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Heading and Description */
+h1 {
+    color: #2d0f20;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #444;
+    margin: 10px 0;
+}
+
+/* Career and Learning Sections */
+.career-section, .learning-section {
+    text-align: left;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Career Options */
+.career-section label {
+    font-size: 16px;
+    display: block;
+    margin: 5px 0;
+}
+
+/* Learning Resources */
+.learning-section p {
+    color: red;
+}
+
+/* Next Button */
+.next-btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.next-btn:hover {
+    background: #444;
+}

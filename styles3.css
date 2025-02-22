@@ -1,0 +1,143 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.navigation a {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    background: #0056b3;
+}
+
+
+body {
+    background: linear-gradient(to bottom, #88E3B3, #C76DD6, #F03C96);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+/* Container */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Welcome Box */
+.welcome-box {
+    background: #F4A7FF;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.username {
+    color: black;
+    font-weight: bold;
+}
+
+/* Highlighted Text */
+.highlight {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00FF00;
+    margin: 10px 0;
+}
+
+/* Description */
+.description {
+    font-size: 1.1rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Features */
+.features {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.features h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style-type: none;
+}
+
+.features li {
+    color: lightblue;
+    font-size: 1rem;
+    text-align: left;
+    padding: 5px 0;
+}
+
+/* Dashboard Button */
+.dashboard-btn {
+    background: yellow;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    display: block;
+}
+
+.dashboard-btn:hover {
+    background: orange;
+}

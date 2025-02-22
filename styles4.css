@@ -1,0 +1,92 @@
+/* Container */
+
+        /* Container styling */
+        .container {
+            width: 500px;
+            background: linear-gradient(to bottom, #2159a2, #59e96a);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin: auto; /* Ensuring centering */
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px auto;
+            max-width: 400px;
+        }
+        
+        .navigation a {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        
+        .navigation a:hover {
+            background: #0056b3;
+        }
+        
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        /* Logo */
+        .logo {
+            background: black;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 15px;
+            font-weight: bold;
+        }
+
+        /* Title */
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(11, 1, 1);
+        }
+
+        /* Menu Button */
+        .menu-btn {
+            background-color: #d4ffdd;
+            border: none;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        /* Welcome Text */
+        .welcome-box {
+            font-size: 18px;
+            font-weight: bold;
+            background: #c4a1c9;
+           margin: 20px 0;
+        }
+
+        /* Button */
+        .detail-btn {
+            background: #ffe680;
+            color: red;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .detail-btn:hover {
+            background: #ffd700;
+        }

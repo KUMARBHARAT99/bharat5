@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4a00e0, #ff00ff);
+    margin: 0;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.navigation a {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    background: #0056b3;
+}
+
+.container {
+    background: linear-gradient(to right, #ff00ff, #4a00e0);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.back {
+    background: yellow;
+    color: black;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.home {
+    background: linear-gradient(to right, green, red);
+    color: black;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.support {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.welcome h1 {
+    background: linear-gradient(to right, #ffcccc, #ff99ff);
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.username {
+    color: black;
+}
+
+.highlight {
+    font-size: 20px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.sub-text {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.contact-box {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.virtual-assistant {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icons img {
+    width: 200px;
+    margin: 10px;
+}
+
+.feedback {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.emoji-box img {
+    width: 200px;
+    margin: 5px;
+}

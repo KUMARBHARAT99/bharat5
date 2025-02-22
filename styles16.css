@@ -1,0 +1,155 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #A68E44, #0400FF);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.navigation a {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    background: #0056b3;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #abb43b, #095ee7);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 40px;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 28px;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Welcome Section */
+.welcome {
+    margin: 15px 0;
+}
+
+.welcome h2 {
+    background: #a39f66;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Detail Button */
+.detail-btn {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    background: grey;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Menu Buttons */
+.menu {
+
+    margin: 15px 0;
+    width: 50%;
+}
+
+.menu-btn {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    background: #777;
+    color: black;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Bottom Buttons */
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.feedback-btn {
+    background: linear-gradient(to right, green, red);
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home-btn {
+    background: linear-gradient(to right, pink, blue);
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}

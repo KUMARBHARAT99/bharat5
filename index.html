@@ -3,41 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!DOCTYPE htm>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=3.6">
-        <title>My Animated Page</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="profile">
-                <img src="image.jpg" alt="profile-photo" class="profile-photo">
-                <h1>Bharat Kumar</h1>0
-                <p>Welcome to my animated page!</p>
-                <div class="links">
-                    <a href="https://www.instagram.com/its_mrinal_077/" target="_blank" class="btn insta">Instagram</a>
-                    <a href="https://wa.me/917877481889" target="_blank" class="btn whatsapp">WhatsApp</a
-                </div>
+    <div class="navigation">
+        <a id="prevBtn" href="#">⬅ Previous</a>
+        <a id="nextBtn" href="#">Next ➡</a>
+    </div>
+    <div class="container">
+        <div class="login-container">
+            <h2>Log In</h2>
+            <input type="text" placeholder="User Name/ID">
+            <input type="password" placeholder="Password">
+            <button class="btn">Submit</button>
+            <div class="links">
+                <p><a href="#">Forgot Password?</a></p>
+                <p><a href="#">Sign-Up</a></p>
             </div>
         </div>
-    
-        <!-- Watermark -->
-        <canvas id="watermarkCanvas"></canvas>
-    
-        <footer>
-            <p>Made with ❤️ by Bharat Kumar</p>
-        </footer>
-    
-        <script src="script.js"></script>
-    </body>
-    </html>
-    
-
+    </div>
+    <script src="app.js"></script>
 </body>
-</html
+</html>
